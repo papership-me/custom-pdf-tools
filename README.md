@@ -20,10 +20,10 @@ This simple shell script can convert scanned PDF documents into monochrome, gray
 3. Give the script permission to execute /ex/ `chmod +x pdf_color.sh`
 4. Run the script:
   - Basic usage: `./pdf_color.sh FILE_NAME COLOR_MODE INPUT_DPI OUTPUT_DPI`
-    - FILE_NAME: PDF file location; names with spaces should be "quoted"(?)
-    - COLOR_MODE: output color options; can be `mono`, `gray`, `1`, ...; default value is `mono` if omitted
-    - INPUT_DPI: DPI of input pdf file; default value is `600` if omitted
-    - OUTPUT_DPI: DPI of output pdf file; default value is `400` if omitted
+    - `FILE_NAME`: PDF file location; names with spaces should be "quoted"(?)
+    - `COLOR_MODE`: output color options; can be `mono`, `gray`, `1`, ...; default value is `mono` if omitted
+    - `INPUT_DPI`: DPI of input pdf file; default value is `600` if omitted
+    - `OUTPUT_DPI`: DPI of output pdf file; default value is `400` if omitted
   - Examples:
     - Convert 400dpi PDF(sample.pdf) into 400dpi grayscale: `./pdf_color.sh sample.pdf gray 400 400`
     - Convert 600dpi PDF(sample.pdf) into 400dpi 8-colored: `./pdf_color.sh sample.pdf 8`
