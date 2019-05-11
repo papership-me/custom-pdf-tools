@@ -1,7 +1,7 @@
 # Custom PDF tools
 
 ## [1] PDF color convert script with Graphicsmagick(http://graphicsmagick.org)
-This simple shell script can convert scanned PDF documents into monochrome, grayscale, or n-colored. This is done with the Graphicsmagick(http://graphicsmagick.org).
+This simple shell script can convert scanned PDF documents into monochrome(black and white), grayscale, or n-colored. This is done with the Graphicsmagick(http://graphicsmagick.org).
 
 **[FEATURES]**
 - Convert PDF into several color options (mono, gray, 1-)
